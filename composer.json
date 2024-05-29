@@ -1,0 +1,20 @@
+{
+    "name": "anakellys/buscador_cursos",
+    "description": "busca",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Anakellys\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ana Kelly",
+            "email": "anakellymo77@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/css-selector": "^6.4"
+    }
+}
